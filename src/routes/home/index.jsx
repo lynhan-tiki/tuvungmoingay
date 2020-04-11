@@ -6,7 +6,7 @@ import { dictionaries } from './translate';
 
 const Home = (props) => {
   const [idx, setIdx] = React.useState(0);
-  const [step, setStep] = React.useState(3);
+  const [step, setStep] = React.useState(0);
   const words = dictionaries.slice(0, 5);
   const word = words[idx];
   return (
