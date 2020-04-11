@@ -1,6 +1,7 @@
-const dictionaries = [
+export const dictionaries = [
   {
     word: 'dusting',
+    pronoun: "'dʌstiɳ",
     type: 'noun',
     mean: 'Việc quét bụi',
     example: {
@@ -10,6 +11,7 @@ const dictionaries = [
   },
   {
     word: 'ironing',
+    pronoun: "'aiəniη",
     type: 'noun',
     mean: 'Việc ủi đồ',
     example: {
@@ -19,6 +21,7 @@ const dictionaries = [
   },
   {
     word: 'cooking',
+    pronoun: "'kukiɳ",
     type: 'noun',
     mean: 'nấu ăn',
     example: {
@@ -29,6 +32,7 @@ const dictionaries = [
   {
     word: 'countryside',
     type: 'noun',
+    pronoun: "'kʌntrisaid",
     mean: 'nông thôn, miền quê',
     example: {
       en:
@@ -175,5 +179,4 @@ const dictionaries = [
     },
   },
 ];
-const generate = (start) => dictionaries.slice(start, start + 5);
-export default generate;
+export default (start) => dictionaries.slice(start, start + 5);
