@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import MainApp from './routes';
+import MainApp from "./routes";
 
 function App() {
-  return <MainApp />;
+    return <MainApp />;
 }
 
 export default App;
